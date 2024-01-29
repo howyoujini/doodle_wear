@@ -1,0 +1,40 @@
+name: doodle_wear
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.9
+  go_router: ^13.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/login/
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: fonts/Pretendard/Pretendard-Regular.otf
+          weight: 400
+        - asset: fonts/Pretendard/Pretendard-Medium.otf
+          weight: 500
+        - asset: fonts/Pretendard/Pretendard-Bold.otf
+          weight: 700
+        - asset: fonts/Pretendard/Pretendard-Black.otf
+          weight: 900
+flutter_intl:
+  enabled: true
